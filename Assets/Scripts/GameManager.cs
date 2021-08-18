@@ -3,11 +3,18 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 using System.Linq;
 
-public class GameManager : MonoBehaviour
+public class GameManager : MonoBehaviour, IInput
 {
     private static GameManager GM;
     private BaseController nowController;
     private int nowScene;
+
+    public delegate void InputStautsHandler();
+    public event InputStautsHandler ConfirmEvent;
+    public event InputStautsHandler BackEvent;
+    public event InputStautsHandler LeftEvent;
+    public event InputStautsHandler RightEvent;
+
     public enum Scenes
     {
         開始封面 = 0,
@@ -17,6 +24,14 @@ public class GameManager : MonoBehaviour
         操作教學 = 4,
         世界地圖 = 5,
         遊戲場景 = 6
+    }
+    public enum InputStaut
+    {
+        確認 = 0,
+        取消 = 1,
+        左 = 2,
+        右 = 3,
+        錯誤 = 100
     }
     void Awake()
     {
@@ -76,6 +91,27 @@ public class GameManager : MonoBehaviour
     #endregion
 
     #region InputManagement
+
+    public InputStaut InputStauts(int value)
+    {
+        switch (value)
+        {
+            case 1:
+                ConfirmEvent();
+                return InputStaut.確認;
+            case 2:
+                BackEvent();
+                return InputStaut.取消;
+            case 3:
+                LeftEvent();
+                return InputStaut.左;
+            case 4:
+                RightEvent();
+                return InputStaut.右;
+            default:
+                return InputStaut.錯誤;
+        }          
+    }
 
     #endregion
 }

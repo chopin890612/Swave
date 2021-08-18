@@ -3,8 +3,5 @@ using System.Collections;
 
 public interface IInput
 {
-    void Confirm();
-    void Back();
-    void Left();
-    void Right();
+    GameManager.InputStaut InputStauts(int value);
 }
