@@ -1,0 +1,1355 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1165; Version 2009; 64bit' Language: 'zh' Physical Memory: 16229 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Users\chopin\Documents\2020.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/GameDevProjects/SurfingGame/Swave
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+13545
+Successfully changed project path to: D:/GameDevProjects/SurfingGame/Swave
+D:/GameDevProjects/SurfingGame/Swave
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 58.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path C:/Users/chopin/Documents/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GameDevProjects/SurfingGame/Swave/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.6589
+Initialize mono
+Mono path[0] = 'C:/Users/chopin/Documents/2020.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/chopin/Documents/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/chopin/Documents/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/chopin/Documents/2020.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Users/chopin/Documents/2020.3.3f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Users/chopin/Documents/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005918 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 39.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.019 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.077503 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.596 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1859 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.2 MB.
+System memory in use after: 92.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2305.
+Total: 2.552500 ms (FindLiveObjects: 0.206000 ms CreateObjectMapping: 0.072800 ms MarkObjects: 2.159200 ms  DeleteObjects: 0.113000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Textures/01_開始封面/板GIF
+  artifactKey: Guid(18f43dd8c7c69474c844058423ca9461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF using Guid(18f43dd8c7c69474c844058423ca9461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e6bb54d679171f135a800411ae46be') in 0.009283 seconds
+  Import took 0.046228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Textures/01_開始封面/人GIF
+  artifactKey: Guid(134347551b0f3964f89f5f59e63d07cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF using Guid(134347551b0f3964f89f5f59e63d07cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332ba1182952ed1552b24ceade43da35') in 0.005176 seconds
+  Import took 0.029264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.473113 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/1.png
+  artifactKey: Guid(424a01a1f86d0cd41848812cfa63b5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/1.png using Guid(424a01a1f86d0cd41848812cfa63b5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734de40f127e0c5c22dd81dbd031b2cd') in 0.179121 seconds
+  Import took 0.182879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/8.png
+  artifactKey: Guid(fe8e02e5e7bd8e246a6264ac4bee2719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/8.png using Guid(fe8e02e5e7bd8e246a6264ac4bee2719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be6293839952a8d3f382191faef842f') in 0.016056 seconds
+  Import took 0.057003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/5.png
+  artifactKey: Guid(3c9b96fdcfac5f64aa1871e6b1cd4679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/5.png using Guid(3c9b96fdcfac5f64aa1871e6b1cd4679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b7c97684a66791a391be45aed6f35b') in 0.012250 seconds
+  Import took 0.020062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/12.png
+  artifactKey: Guid(cac3d728c3151204c81219999eff69f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/12.png using Guid(cac3d728c3151204c81219999eff69f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a74e14ae8fd90fbbaec9ae6ca28f156') in 0.016274 seconds
+  Import took 0.065464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/10.png
+  artifactKey: Guid(9454f0313d90e2e459b9045e96852f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/10.png using Guid(9454f0313d90e2e459b9045e96852f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2769ff3e14438c83e4cde4964ea236') in 0.017984 seconds
+  Import took 0.092994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/16.png
+  artifactKey: Guid(bfc881c82e6ff434191b2ea9a8d38506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/16.png using Guid(bfc881c82e6ff434191b2ea9a8d38506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248b2532d72445d62ce72c5a42ff8b3a') in 0.012573 seconds
+  Import took 0.023542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/17.png
+  artifactKey: Guid(c401c9d6217a60c4aaea888f1d1e1055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/17.png using Guid(c401c9d6217a60c4aaea888f1d1e1055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c15fff1b642bef887a3506623e68286') in 0.013473 seconds
+  Import took 0.027515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/6.png
+  artifactKey: Guid(c396e55aac29970488a8fcf0634d34b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/6.png using Guid(c396e55aac29970488a8fcf0634d34b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ad65b4377432f76ef63fba028b152e') in 0.012107 seconds
+  Import took 0.021019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/18.png
+  artifactKey: Guid(851a66554e5c7ca41b328bdee6b716e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/18.png using Guid(851a66554e5c7ca41b328bdee6b716e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9502467cc34656e076eef99547a998ff') in 0.012471 seconds
+  Import took 0.016934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/7.png
+  artifactKey: Guid(9811787b956bfcc41a95571c0d77b308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/7.png using Guid(9811787b956bfcc41a95571c0d77b308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f03d46761e184e7444d28edffd749b1') in 0.011750 seconds
+  Import took 0.015067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/2.png
+  artifactKey: Guid(e10e10be311b298469deaabc98c7aa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/2.png using Guid(e10e10be311b298469deaabc98c7aa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a4024843ce77f33fa2f93b6b183c6a') in 0.011960 seconds
+  Import took 0.017623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/14.png
+  artifactKey: Guid(ae3e04a4b689e5d40bfb9f092c4f5777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/14.png using Guid(ae3e04a4b689e5d40bfb9f092c4f5777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d4c40b0fde8c30bdf9356d4b0e03b7') in 0.011734 seconds
+  Import took 0.017261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/19.png
+  artifactKey: Guid(8d1793f48e58e8143a6168b245ed7b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/19.png using Guid(8d1793f48e58e8143a6168b245ed7b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958c541fcc99b30188b71c646bf917a0') in 0.011636 seconds
+  Import took 0.014582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/9.png
+  artifactKey: Guid(c1bc00e4c7a00194db65e56ac11f467d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/9.png using Guid(c1bc00e4c7a00194db65e56ac11f467d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a823341cc1b2effb175fc8cce1136f') in 0.012205 seconds
+  Import took 0.015482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/3.png
+  artifactKey: Guid(6d91ea3b1d57ea04b8227058d7441a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/3.png using Guid(6d91ea3b1d57ea04b8227058d7441a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a95697c9763c08fd062075f835df8f') in 0.011154 seconds
+  Import took 0.032682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/11.png
+  artifactKey: Guid(9ee767fda74db6c44a418908f72e4f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/11.png using Guid(9ee767fda74db6c44a418908f72e4f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb31896f5e18d9ab8782172aee463440') in 0.013491 seconds
+  Import took 0.034350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/15.png
+  artifactKey: Guid(bf77c97180a167242a0f22e4dbb66a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/15.png using Guid(bf77c97180a167242a0f22e4dbb66a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e91563e25090f1adf78db767d9b99b') in 0.010696 seconds
+  Import took 0.029261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/13.png
+  artifactKey: Guid(33195b9893058ff43bb2e7761aa7275f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/13.png using Guid(33195b9893058ff43bb2e7761aa7275f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7890992078e8edc8ba610b80aedd9ace') in 0.010116 seconds
+  Import took 0.036718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/4.png
+  artifactKey: Guid(8cd05e9c87c02ff4aa224373fa3637b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/4.png using Guid(8cd05e9c87c02ff4aa224373fa3637b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923cda83c141334db4b26fb6f5e4b2d7') in 0.013736 seconds
+  Import took 0.032831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.472355 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/1.png
+  artifactKey: Guid(424a01a1f86d0cd41848812cfa63b5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/1.png using Guid(424a01a1f86d0cd41848812cfa63b5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ae85f08fe8c7cf88952cf849a4ae23') in 0.052360 seconds
+  Import took 0.121074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/8.png
+  artifactKey: Guid(fe8e02e5e7bd8e246a6264ac4bee2719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/8.png using Guid(fe8e02e5e7bd8e246a6264ac4bee2719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b967f1d3894b5ea73d36dc77b23e206') in 0.012017 seconds
+  Import took 0.461799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/5.png
+  artifactKey: Guid(3c9b96fdcfac5f64aa1871e6b1cd4679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/5.png using Guid(3c9b96fdcfac5f64aa1871e6b1cd4679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c9d5a0059face7df03a7774f13c9b5') in 0.011308 seconds
+  Import took 0.079738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/12.png
+  artifactKey: Guid(cac3d728c3151204c81219999eff69f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/12.png using Guid(cac3d728c3151204c81219999eff69f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec20b8aa557fcb9aa65a430738dc751') in 0.010503 seconds
+  Import took 0.025601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/10.png
+  artifactKey: Guid(9454f0313d90e2e459b9045e96852f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/10.png using Guid(9454f0313d90e2e459b9045e96852f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992ccb27b8d05375f006d6be7724ab1e') in 0.012817 seconds
+  Import took 0.060029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/16.png
+  artifactKey: Guid(bfc881c82e6ff434191b2ea9a8d38506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/16.png using Guid(bfc881c82e6ff434191b2ea9a8d38506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88db3bb34a26f318dee5b7782eeed6b2') in 0.010893 seconds
+  Import took 0.048846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/17.png
+  artifactKey: Guid(c401c9d6217a60c4aaea888f1d1e1055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/17.png using Guid(c401c9d6217a60c4aaea888f1d1e1055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd191c2026867e7a3c725dd1fb2381bfa') in 0.010696 seconds
+  Import took 0.038841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/6.png
+  artifactKey: Guid(c396e55aac29970488a8fcf0634d34b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/6.png using Guid(c396e55aac29970488a8fcf0634d34b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cdb93faa78d97029129b732698717f3') in 0.012169 seconds
+  Import took 0.034652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/18.png
+  artifactKey: Guid(851a66554e5c7ca41b328bdee6b716e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/18.png using Guid(851a66554e5c7ca41b328bdee6b716e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339440c925e37a23e50ab50ba9082c81') in 0.012898 seconds
+  Import took 0.016696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/7.png
+  artifactKey: Guid(9811787b956bfcc41a95571c0d77b308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/7.png using Guid(9811787b956bfcc41a95571c0d77b308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6b4c966c3fc6ed47ca96890c3c9f51') in 0.012531 seconds
+  Import took 0.049645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/2.png
+  artifactKey: Guid(e10e10be311b298469deaabc98c7aa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/2.png using Guid(e10e10be311b298469deaabc98c7aa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4cbbbb3a1978bc44980b4ecb2c4660') in 0.012115 seconds
+  Import took 0.054533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/14.png
+  artifactKey: Guid(ae3e04a4b689e5d40bfb9f092c4f5777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/14.png using Guid(ae3e04a4b689e5d40bfb9f092c4f5777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5d73b6bcb48096f87b01a8600cdf0b') in 0.011853 seconds
+  Import took 0.030946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/19.png
+  artifactKey: Guid(8d1793f48e58e8143a6168b245ed7b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/19.png using Guid(8d1793f48e58e8143a6168b245ed7b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847bc642b57b60d042bb9f70530153c1') in 0.013500 seconds
+  Import took 0.039105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/9.png
+  artifactKey: Guid(c1bc00e4c7a00194db65e56ac11f467d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/9.png using Guid(c1bc00e4c7a00194db65e56ac11f467d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9761289f39cd0fd223d0ab97e32a2ef0') in 0.016752 seconds
+  Import took 0.019619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/3.png
+  artifactKey: Guid(6d91ea3b1d57ea04b8227058d7441a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/3.png using Guid(6d91ea3b1d57ea04b8227058d7441a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5b75102cc804475af2ea9dcc995fec') in 0.012957 seconds
+  Import took 0.057130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/11.png
+  artifactKey: Guid(9ee767fda74db6c44a418908f72e4f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/11.png using Guid(9ee767fda74db6c44a418908f72e4f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0e8330ced046899f1368662fed735b') in 0.014297 seconds
+  Import took 0.017061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/15.png
+  artifactKey: Guid(bf77c97180a167242a0f22e4dbb66a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/15.png using Guid(bf77c97180a167242a0f22e4dbb66a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf03c2457d81318a430eab884b5de5db') in 0.012891 seconds
+  Import took 0.021006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/13.png
+  artifactKey: Guid(33195b9893058ff43bb2e7761aa7275f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/13.png using Guid(33195b9893058ff43bb2e7761aa7275f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6fde41628fa478d04b722e9ff59c4f') in 0.015018 seconds
+  Import took 0.053103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Textures/01_開始封面/人GIF/4.png
+  artifactKey: Guid(8cd05e9c87c02ff4aa224373fa3637b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/人GIF/4.png using Guid(8cd05e9c87c02ff4aa224373fa3637b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e553d3ece90b47448650acf68c891ede') in 0.011636 seconds
+  Import took 0.014649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.146574 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/1.png
+  artifactKey: Guid(6b543eef9dd56a14999071da39bf55bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/1.png using Guid(6b543eef9dd56a14999071da39bf55bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e0d87031d8b9df1ac34492c09342b5') in 0.013042 seconds
+  Import took 0.021789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/2.png
+  artifactKey: Guid(bce7ba29f7400f04da8e0e7bb4bbea93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/2.png using Guid(bce7ba29f7400f04da8e0e7bb4bbea93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8731dc28df6573f006e10eecdf9b6545') in 0.012952 seconds
+  Import took 0.016012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/17.png
+  artifactKey: Guid(dc1baaaeb77e5124a837057a3ab4ec58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/17.png using Guid(dc1baaaeb77e5124a837057a3ab4ec58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95885145f55621ec767241220b26a400') in 0.007490 seconds
+  Import took 0.010486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/5.png
+  artifactKey: Guid(1001826b4b59bbb48ba6b16ef48a9ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/5.png using Guid(1001826b4b59bbb48ba6b16ef48a9ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5b4af10f2bb7a62638ee155e510afc') in 0.008041 seconds
+  Import took 0.013311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/6.png
+  artifactKey: Guid(79c23f7253145d74c9ad1d534090fccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/6.png using Guid(79c23f7253145d74c9ad1d534090fccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd18e199f6368fcf740621bac7fb5ddc') in 0.007530 seconds
+  Import took 0.015115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/12.png
+  artifactKey: Guid(38fb4f41bfa7a6c46ba577eab4883e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/12.png using Guid(38fb4f41bfa7a6c46ba577eab4883e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e60b63f4ea97e5468ba0dfdcafde87') in 0.016566 seconds
+  Import took 0.021747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/13.png
+  artifactKey: Guid(ce8d651dda2a2b24eb892fa79c0d1b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/13.png using Guid(ce8d651dda2a2b24eb892fa79c0d1b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d54d32516517634ce2ec3e4d9fc528') in 0.012954 seconds
+  Import took 0.016128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/9.png
+  artifactKey: Guid(63a8e1d763b9897499e75ece5747454a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/9.png using Guid(63a8e1d763b9897499e75ece5747454a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be4c4e4c001e88646e26fce5a861053') in 0.008312 seconds
+  Import took 0.016187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/14.png
+  artifactKey: Guid(94811dcfd363c7243a67201f03489c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/14.png using Guid(94811dcfd363c7243a67201f03489c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48148bf1782a62088350db82c4fafa1b') in 0.013019 seconds
+  Import took 0.015695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/7.png
+  artifactKey: Guid(7df986bed86da134a9a403c0dc098cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/7.png using Guid(7df986bed86da134a9a403c0dc098cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8eba3ca7172b4342f06e5ba337f3ec') in 0.012158 seconds
+  Import took 0.015003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/8.png
+  artifactKey: Guid(22dcb5f5b52406841b6226d36007d158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/8.png using Guid(22dcb5f5b52406841b6226d36007d158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1667d9cc49de3a229d75388f00df5d14') in 0.007603 seconds
+  Import took 0.011327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/16.png
+  artifactKey: Guid(1ce534dbcea47a94283dcc68cb9ac3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/16.png using Guid(1ce534dbcea47a94283dcc68cb9ac3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40dc61d348c4ed24588c657872ec1473') in 0.007286 seconds
+  Import took 0.021865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/3.png
+  artifactKey: Guid(294204e74721ce84c9e5065a3311a60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/3.png using Guid(294204e74721ce84c9e5065a3311a60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0892373bbad2809cff253e01f5b810b4') in 0.007490 seconds
+  Import took 0.032469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/10.png
+  artifactKey: Guid(def50f14443ba0d4ca3c1eda96d802c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/10.png using Guid(def50f14443ba0d4ca3c1eda96d802c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7288cee070508681a4713bcbdc247f6') in 0.007270 seconds
+  Import took 0.010746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/11.png
+  artifactKey: Guid(1c737dfa42f7f5b48a9f08b3f045896e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/11.png using Guid(1c737dfa42f7f5b48a9f08b3f045896e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd747eacd0b19efae754287a4eebd940') in 0.007234 seconds
+  Import took 0.027117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/15.png
+  artifactKey: Guid(020b31d0fa1cafc48b8312c5fdb232ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/15.png using Guid(020b31d0fa1cafc48b8312c5fdb232ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69446348e0b726308f86e3ed4d737f79') in 0.008741 seconds
+  Import took 0.029185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/4.png
+  artifactKey: Guid(5bccfd215a6604b4aa3590f0c66ec166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/4.png using Guid(5bccfd215a6604b4aa3590f0c66ec166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbed7f2d782600384428921e2a3fa6a2') in 0.007522 seconds
+  Import took 0.011668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.798157 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/1.png
+  artifactKey: Guid(6b543eef9dd56a14999071da39bf55bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/1.png using Guid(6b543eef9dd56a14999071da39bf55bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d942a21dada3ec2e5c5c45548504d35') in 0.011809 seconds
+  Import took 0.038830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/2.png
+  artifactKey: Guid(bce7ba29f7400f04da8e0e7bb4bbea93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/2.png using Guid(bce7ba29f7400f04da8e0e7bb4bbea93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e768b0da66d809fa11fabb857df5effe') in 0.012823 seconds
+  Import took 0.016651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/17.png
+  artifactKey: Guid(dc1baaaeb77e5124a837057a3ab4ec58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/17.png using Guid(dc1baaaeb77e5124a837057a3ab4ec58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc04d0618575cfb996f1257efc7126f') in 0.011404 seconds
+  Import took 0.043734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/5.png
+  artifactKey: Guid(1001826b4b59bbb48ba6b16ef48a9ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/5.png using Guid(1001826b4b59bbb48ba6b16ef48a9ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b6bf14cff99f408436ca0af57e8cc7') in 0.011054 seconds
+  Import took 0.027775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/6.png
+  artifactKey: Guid(79c23f7253145d74c9ad1d534090fccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/6.png using Guid(79c23f7253145d74c9ad1d534090fccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0468520c169227978b49e55511eb6ba4') in 0.008762 seconds
+  Import took 0.012252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000631 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/12.png
+  artifactKey: Guid(38fb4f41bfa7a6c46ba577eab4883e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/12.png using Guid(38fb4f41bfa7a6c46ba577eab4883e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe740e7360c55ef269a8df6a21bfbda') in 0.012039 seconds
+  Import took 0.025199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/13.png
+  artifactKey: Guid(ce8d651dda2a2b24eb892fa79c0d1b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/13.png using Guid(ce8d651dda2a2b24eb892fa79c0d1b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89360bf882d03f0ecd57ff146bd61b5') in 0.015855 seconds
+  Import took 0.035031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/9.png
+  artifactKey: Guid(63a8e1d763b9897499e75ece5747454a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/9.png using Guid(63a8e1d763b9897499e75ece5747454a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6479faae5f9d21ab61b40fe17c730656') in 0.010490 seconds
+  Import took 0.013249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/14.png
+  artifactKey: Guid(94811dcfd363c7243a67201f03489c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/14.png using Guid(94811dcfd363c7243a67201f03489c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcea381523ac11f5540b013051d2e228') in 0.014279 seconds
+  Import took 0.017420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/7.png
+  artifactKey: Guid(7df986bed86da134a9a403c0dc098cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/7.png using Guid(7df986bed86da134a9a403c0dc098cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c659ace7858799ecc48d74e8a3863e46') in 0.015644 seconds
+  Import took 0.025206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/8.png
+  artifactKey: Guid(22dcb5f5b52406841b6226d36007d158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/8.png using Guid(22dcb5f5b52406841b6226d36007d158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654bcd02b6e4a89e9ece6680ceb7e348') in 0.008880 seconds
+  Import took 0.044470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/16.png
+  artifactKey: Guid(1ce534dbcea47a94283dcc68cb9ac3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/16.png using Guid(1ce534dbcea47a94283dcc68cb9ac3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cccaf86b7bb4773db4db01e6e5d47c5') in 0.014921 seconds
+  Import took 0.019517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/3.png
+  artifactKey: Guid(294204e74721ce84c9e5065a3311a60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/3.png using Guid(294204e74721ce84c9e5065a3311a60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5799c544aa47bb397fda2b45d9164221') in 0.013824 seconds
+  Import took 0.019176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/10.png
+  artifactKey: Guid(def50f14443ba0d4ca3c1eda96d802c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/10.png using Guid(def50f14443ba0d4ca3c1eda96d802c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097cf9c4556843af41b9d831bcb68e8a') in 0.009756 seconds
+  Import took 0.014622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/11.png
+  artifactKey: Guid(1c737dfa42f7f5b48a9f08b3f045896e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/11.png using Guid(1c737dfa42f7f5b48a9f08b3f045896e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b555f345ea516c83fd0b04b9630523') in 0.009744 seconds
+  Import took 0.013424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/15.png
+  artifactKey: Guid(020b31d0fa1cafc48b8312c5fdb232ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/15.png using Guid(020b31d0fa1cafc48b8312c5fdb232ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186b7ea844e4553e5127772ef24f19cd') in 0.009742 seconds
+  Import took 0.014202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Textures/01_開始封面/板GIF/4.png
+  artifactKey: Guid(5bccfd215a6604b4aa3590f0c66ec166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/板GIF/4.png using Guid(5bccfd215a6604b4aa3590f0c66ec166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e536cca813ec19cc0240b767de39a8') in 0.010543 seconds
+  Import took 0.070928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.559158 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF
+  artifactKey: Guid(00e91d626097be5488fde89bfe243c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF using Guid(00e91d626097be5488fde89bfe243c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90778cfd2ed7f7fceb30983cadabe23') in 0.005420 seconds
+  Import took 0.023103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.059377 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/1.png
+  artifactKey: Guid(37b6232628636e8438af9ea3fdef9e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/1.png using Guid(37b6232628636e8438af9ea3fdef9e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2dd24bec09bad9386d92e53e4a6bb07') in 0.013571 seconds
+  Import took 0.018429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/2.png
+  artifactKey: Guid(55cf2e7629dbdb149a091d5e500beb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/2.png using Guid(55cf2e7629dbdb149a091d5e500beb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea588ea6a756bf68b2d73366697eb8a') in 0.012040 seconds
+  Import took 0.023110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/5.png
+  artifactKey: Guid(5f631dd5942d37d41a71b45f019fca88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/5.png using Guid(5f631dd5942d37d41a71b45f019fca88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6d7212efecce18ecc77a3cfb6dc59e') in 0.009855 seconds
+  Import took 0.012400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/21.png
+  artifactKey: Guid(93d4cebe5baead243be2b882b0962b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/21.png using Guid(93d4cebe5baead243be2b882b0962b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1755d8493c896d5910c15a97080a4381') in 0.011070 seconds
+  Import took 0.025359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/19.png
+  artifactKey: Guid(110f25b36068dfc47a3411f572dfc0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/19.png using Guid(110f25b36068dfc47a3411f572dfc0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25437641c003cd76b7853496eb2c3844') in 0.008779 seconds
+  Import took 0.040414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/4.png
+  artifactKey: Guid(73f43aae6943c6646b0fa51a02d46e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/4.png using Guid(73f43aae6943c6646b0fa51a02d46e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc73d9915fa1b5fd763bfb9aaf8e3ff') in 0.007485 seconds
+  Import took 0.028214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000788 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/11.png
+  artifactKey: Guid(0db3f61ff5eccbb4a9b4346a7f42ef67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/11.png using Guid(0db3f61ff5eccbb4a9b4346a7f42ef67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174d731e158fa00a773c4789174ff7e3') in 0.012013 seconds
+  Import took 0.018258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/14.png
+  artifactKey: Guid(e0ed8a24b6d08f34590d19939790566a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/14.png using Guid(e0ed8a24b6d08f34590d19939790566a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324da610575378669754ac46e10e6736') in 0.012947 seconds
+  Import took 0.017513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/10.png
+  artifactKey: Guid(af2cd250111ca834da81fde9a2f026a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/10.png using Guid(af2cd250111ca834da81fde9a2f026a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5985ea9fb64df4840607426120cea76') in 0.039390 seconds
+  Import took 0.043002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/13.png
+  artifactKey: Guid(7ea2f011b184b8a48af60ae075651016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/13.png using Guid(7ea2f011b184b8a48af60ae075651016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525faeb754b4269d102484400f75aa35') in 0.010834 seconds
+  Import took 0.016394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/20.png
+  artifactKey: Guid(2d38c964c1fc01d4a89388c62bc96909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/20.png using Guid(2d38c964c1fc01d4a89388c62bc96909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85350c71a39e29f49604f82ec63face') in 0.012628 seconds
+  Import took 0.020963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/15.png
+  artifactKey: Guid(42f5d69806bbb6949831b7e8560982b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/15.png using Guid(42f5d69806bbb6949831b7e8560982b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2de33f96edc40c882d86bea21d6e2b') in 0.007388 seconds
+  Import took 0.019399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/8.png
+  artifactKey: Guid(d3d31fbaf46af524fbdedabed852e68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/8.png using Guid(d3d31fbaf46af524fbdedabed852e68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861e3e0e9fb4dd68c978fad8be599332') in 0.008209 seconds
+  Import took 0.013206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/7.png
+  artifactKey: Guid(b5b2a8e6efcfcb84f8e9a2c922f837bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/7.png using Guid(b5b2a8e6efcfcb84f8e9a2c922f837bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044b55a923ac909d28b3b0e717829b23') in 0.008178 seconds
+  Import took 0.012588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/6.png
+  artifactKey: Guid(1ea2f971aa7982942bb438ca5898bba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/6.png using Guid(1ea2f971aa7982942bb438ca5898bba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82677cd4d2b18936b7605765bfd8d686') in 0.007176 seconds
+  Import took 0.010308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/3.png
+  artifactKey: Guid(e829b8e934e91ab4c9af0cbfc12adc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/3.png using Guid(e829b8e934e91ab4c9af0cbfc12adc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589795e18296d37a0fd7c6cf48dcac19') in 0.009417 seconds
+  Import took 0.031191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/9.png
+  artifactKey: Guid(6d8541fdc19610642919f0350560824c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/9.png using Guid(6d8541fdc19610642919f0350560824c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4406b5dfcfd40d831a9ebca76b6c566') in 0.008362 seconds
+  Import took 0.011347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/16.png
+  artifactKey: Guid(8a110575dbde79745a7c510b89cff64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/16.png using Guid(8a110575dbde79745a7c510b89cff64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e3dbbf8b48be2f7d5272be017aadfa') in 0.009723 seconds
+  Import took 0.014094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/12.png
+  artifactKey: Guid(352210e153d967b44a8d772d85657ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/12.png using Guid(352210e153d967b44a8d772d85657ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4877788b7e9312b595a7ea3f6421afb3') in 0.007755 seconds
+  Import took 0.011647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/17.png
+  artifactKey: Guid(f33bf818a4e882b4f9743d3e0fe7d436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/17.png using Guid(f33bf818a4e882b4f9743d3e0fe7d436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73fe5df59402731074b83f0ec0bc898') in 0.007736 seconds
+  Import took 0.011250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/18.png
+  artifactKey: Guid(21db1ab30ba87094c843bad136bf3f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/18.png using Guid(21db1ab30ba87094c843bad136bf3f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446da2b0ed70ecab59c90829b8bae2b9') in 0.008839 seconds
+  Import took 0.019238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.487010 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/1.png
+  artifactKey: Guid(37b6232628636e8438af9ea3fdef9e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/1.png using Guid(37b6232628636e8438af9ea3fdef9e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0083bbd8b5951aafb686842e7ec01a') in 0.012626 seconds
+  Import took 0.020244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/2.png
+  artifactKey: Guid(55cf2e7629dbdb149a091d5e500beb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/2.png using Guid(55cf2e7629dbdb149a091d5e500beb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b47720d4869c24fe4651b3761a9ac6') in 0.012842 seconds
+  Import took 0.016709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/5.png
+  artifactKey: Guid(5f631dd5942d37d41a71b45f019fca88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/5.png using Guid(5f631dd5942d37d41a71b45f019fca88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2d52c048f6513f095e26c75e1b7fa3') in 0.012032 seconds
+  Import took 0.015277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/21.png
+  artifactKey: Guid(93d4cebe5baead243be2b882b0962b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/21.png using Guid(93d4cebe5baead243be2b882b0962b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff910335f9744cdbc7e5660bbe1260c') in 0.007956 seconds
+  Import took 0.010762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/19.png
+  artifactKey: Guid(110f25b36068dfc47a3411f572dfc0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/19.png using Guid(110f25b36068dfc47a3411f572dfc0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6c5048182e176c17dcfa3f92b40470') in 0.009428 seconds
+  Import took 0.012581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/4.png
+  artifactKey: Guid(73f43aae6943c6646b0fa51a02d46e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/4.png using Guid(73f43aae6943c6646b0fa51a02d46e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323b524d8ec6701e2061d520056b2a1e') in 0.010228 seconds
+  Import took 0.013960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/11.png
+  artifactKey: Guid(0db3f61ff5eccbb4a9b4346a7f42ef67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/11.png using Guid(0db3f61ff5eccbb4a9b4346a7f42ef67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4123ef19a4291db376ed9f711dea2b6') in 0.015464 seconds
+  Import took 0.018833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/14.png
+  artifactKey: Guid(e0ed8a24b6d08f34590d19939790566a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/14.png using Guid(e0ed8a24b6d08f34590d19939790566a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74724a1b7dd478af1c05fc0e7632122f') in 0.013904 seconds
+  Import took 0.016818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/10.png
+  artifactKey: Guid(af2cd250111ca834da81fde9a2f026a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/10.png using Guid(af2cd250111ca834da81fde9a2f026a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169ba4517d0509bf644c6dd60404421a') in 0.015562 seconds
+  Import took 0.018784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/13.png
+  artifactKey: Guid(7ea2f011b184b8a48af60ae075651016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/13.png using Guid(7ea2f011b184b8a48af60ae075651016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22875c49a4396d591132fff18932ce75') in 0.013206 seconds
+  Import took 0.016761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/20.png
+  artifactKey: Guid(2d38c964c1fc01d4a89388c62bc96909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/20.png using Guid(2d38c964c1fc01d4a89388c62bc96909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9a78798fcf44accce1ece6945ec657') in 0.009829 seconds
+  Import took 0.013392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/15.png
+  artifactKey: Guid(42f5d69806bbb6949831b7e8560982b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/15.png using Guid(42f5d69806bbb6949831b7e8560982b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81a85f88da98f82a406c273d46fac61') in 0.011079 seconds
+  Import took 0.014496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/8.png
+  artifactKey: Guid(d3d31fbaf46af524fbdedabed852e68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/8.png using Guid(d3d31fbaf46af524fbdedabed852e68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5acdad93f63722316657fbff3e70e7') in 0.009719 seconds
+  Import took 0.025919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/7.png
+  artifactKey: Guid(b5b2a8e6efcfcb84f8e9a2c922f837bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/7.png using Guid(b5b2a8e6efcfcb84f8e9a2c922f837bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2320bc81e350162b2e2622f2fdc10450') in 0.011573 seconds
+  Import took 0.026494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/6.png
+  artifactKey: Guid(1ea2f971aa7982942bb438ca5898bba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/6.png using Guid(1ea2f971aa7982942bb438ca5898bba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12efb3727daea9eabdad5f550e5c4181') in 0.011613 seconds
+  Import took 0.015523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/3.png
+  artifactKey: Guid(e829b8e934e91ab4c9af0cbfc12adc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/3.png using Guid(e829b8e934e91ab4c9af0cbfc12adc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8a2090d314f29e899107dfc0aae28a') in 0.008189 seconds
+  Import took 0.012953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/9.png
+  artifactKey: Guid(6d8541fdc19610642919f0350560824c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/9.png using Guid(6d8541fdc19610642919f0350560824c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5150452f9e44da4391b2306be2937d8') in 0.009210 seconds
+  Import took 0.012194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/16.png
+  artifactKey: Guid(8a110575dbde79745a7c510b89cff64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/16.png using Guid(8a110575dbde79745a7c510b89cff64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf824b8068635052dc842ce45702027') in 0.008653 seconds
+  Import took 0.014187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/12.png
+  artifactKey: Guid(352210e153d967b44a8d772d85657ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/12.png using Guid(352210e153d967b44a8d772d85657ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398e7cfad8669f78dfcceccb90c19a65') in 0.010494 seconds
+  Import took 0.013777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/17.png
+  artifactKey: Guid(f33bf818a4e882b4f9743d3e0fe7d436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/17.png using Guid(f33bf818a4e882b4f9743d3e0fe7d436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e451adfb8b289b2468199b98a494acae') in 0.010495 seconds
+  Import took 0.050176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Textures/01_開始封面/浪GIF/18.png
+  artifactKey: Guid(21db1ab30ba87094c843bad136bf3f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/01_開始封面/浪GIF/18.png using Guid(21db1ab30ba87094c843bad136bf3f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6dfc3814fa0744cdc49674a7f9e415d') in 0.008563 seconds
+  Import took 0.011931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.869595 seconds.
+  path: Assets/Scenes/01_開始封面.unity
+  artifactKey: Guid(21b5c967b01780947abfd0ced0731e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/01_開始封面.unity using Guid(21b5c967b01780947abfd0ced0731e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90a5cc5af401d50dfa54a6a13db7f72') in 0.094354 seconds
+  Import took 0.132933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.576424 seconds.
+  path: Assets/Animators/01_開始封面/鳥.controller
+  artifactKey: Guid(4609fe74f89595340994f393031703dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/01_開始封面/鳥.controller using Guid(4609fe74f89595340994f393031703dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923dcf8c81105651878d8b925bf66085') in 0.012212 seconds
+  Import took 0.015224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.535007 seconds.
+  path: Assets/Animators/01_開始封面/鳥.anim
+  artifactKey: Guid(ec207f3dd7c42424e8a8c1042ce569ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/01_開始封面/鳥.anim using Guid(ec207f3dd7c42424e8a8c1042ce569ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30bfd8ad4b85d92e51f87782d5b0a9b') in 0.004067 seconds
+  Import took 0.028722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.418039 seconds.
+  path: Assets/Animators/01_開始封面/人.controller
+  artifactKey: Guid(2fbb914ab94de2544a00de1b2ce03ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/01_開始封面/人.controller using Guid(2fbb914ab94de2544a00de1b2ce03ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153f35a6ff612ed4d93fed1ac9383dc0') in 0.006888 seconds
+  Import took 0.010806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Animators/01_開始封面/人.controller
+  artifactKey: Guid(2fbb914ab94de2544a00de1b2ce03ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/01_開始封面/人.controller using Guid(2fbb914ab94de2544a00de1b2ce03ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153f35a6ff612ed4d93fed1ac9383dc0') in 0.002251 seconds
+  Import took 0.047005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.715438 seconds.
+  path: Assets/Animators/01_開始封面
+  artifactKey: Guid(ddbf7b7f2174f5d468736a86e83f6f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/01_開始封面 using Guid(ddbf7b7f2174f5d468736a86e83f6f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5635a24527d15d379f531429bd271647') in 0.097981 seconds
+  Import took 0.117447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.634532 seconds.
+  path: Assets/Animators/01_開始封面/海.controller
+  artifactKey: Guid(387480009b5ec6a41b51222f8906ccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/01_開始封面/海.controller using Guid(387480009b5ec6a41b51222f8906ccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf897701a544f941cd240f08551c1bf3') in 0.006307 seconds
+  Import took 0.009840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.099943 seconds.
+  path: Assets/Animators/01_開始封面/海.anim
+  artifactKey: Guid(c7594a1e963fad141a8d0a7c68d0a875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/01_開始封面/海.anim using Guid(c7594a1e963fad141a8d0a7c68d0a875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017a8339bb04a2c3c5363e08dd750836') in 0.001901 seconds
+  Import took 0.042380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 696.024972 seconds.
+  path: Assets/Animators/01_開始封面/海.controller
+  artifactKey: Guid(387480009b5ec6a41b51222f8906ccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/01_開始封面/海.controller using Guid(387480009b5ec6a41b51222f8906ccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0540a034bd9a734c67339ad0125054') in 0.002643 seconds
+  Import took 0.015612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Animators/01_開始封面/海.controller
+  artifactKey: Guid(387480009b5ec6a41b51222f8906ccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/01_開始封面/海.controller using Guid(387480009b5ec6a41b51222f8906ccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0540a034bd9a734c67339ad0125054') in 0.002434 seconds
+  Import took 0.005337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.727283 seconds.
+  path: Assets/Animators/01_開始封面/海.anim
+  artifactKey: Guid(c7594a1e963fad141a8d0a7c68d0a875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/01_開始封面/海.anim using Guid(c7594a1e963fad141a8d0a7c68d0a875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af615f46d6bcf7f48623db2a4b58d05c') in 0.002155 seconds
+  Import took 0.005325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.298777 seconds.
+  path: Assets/Animators/01_開始封面/海.controller
+  artifactKey: Guid(387480009b5ec6a41b51222f8906ccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/01_開始封面/海.controller using Guid(387480009b5ec6a41b51222f8906ccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4709ad9990dd703aeadfd95bde5c79') in 0.003074 seconds
+  Import took 0.015892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.961745 seconds.
+  path: Assets/Animators/01_開始封面/海.anim
+  artifactKey: Guid(c7594a1e963fad141a8d0a7c68d0a875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/01_開始封面/海.anim using Guid(c7594a1e963fad141a8d0a7c68d0a875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d79819b1e852155b451284ce591acf') in 0.002282 seconds
+  Import took 0.005717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.322922 seconds.
+  path: Assets/Animators/01_開始封面/人.anim
+  artifactKey: Guid(3f4794c51f5caa543a5b5fa206fe9215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/01_開始封面/人.anim using Guid(3f4794c51f5caa543a5b5fa206fe9215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e482546c1842b43f278d9cf28328de') in 0.004377 seconds
+  Import took 0.009570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 163.294309 seconds.
+  path: Assets/Animators/01_開始封面/New Animator Controller.controller
+  artifactKey: Guid(a18f2591b587df94ca9a2ebc968bd604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/01_開始封面/New Animator Controller.controller using Guid(a18f2591b587df94ca9a2ebc968bd604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ab0ce808abd56f6f9a477cd4e1eb54') in 0.005747 seconds
+  Import took 0.010186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.103482 seconds.
+  path: Assets/Animators/01_開始封面/New Animation.anim
+  artifactKey: Guid(072d3f2bb7891d148b52b38ad7b48d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/01_開始封面/New Animation.anim using Guid(072d3f2bb7891d148b52b38ad7b48d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea57ae160895098333d171252a284df') in 0.008413 seconds
+  Import took 0.011514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.521747 seconds.
+  path: Assets/Animators/01_開始封面/板.controller
+  artifactKey: Guid(a18f2591b587df94ca9a2ebc968bd604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/01_開始封面/板.controller using Guid(a18f2591b587df94ca9a2ebc968bd604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93902f0a6a7f29c866e5d31af290308') in 0.006216 seconds
+  Import took 0.009190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.628606 seconds.
+  path: Assets/Animators/01_開始封面/板.anim
+  artifactKey: Guid(072d3f2bb7891d148b52b38ad7b48d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/01_開始封面/板.anim using Guid(072d3f2bb7891d148b52b38ad7b48d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2fc76bcc9206ff58ccd3231938c24c0') in 0.002258 seconds
+  Import took 0.006294 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002696 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.952 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1837 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.8 MB.
+System memory in use after: 93.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2317.
+Total: 3.142600 ms (FindLiveObjects: 0.370300 ms CreateObjectMapping: 0.137800 ms MarkObjects: 2.541300 ms  DeleteObjects: 0.091500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002240 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.975 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1837 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.9 MB.
+System memory in use after: 94.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2322.
+Total: 2.676100 ms (FindLiveObjects: 0.410400 ms CreateObjectMapping: 0.207700 ms MarkObjects: 1.975100 ms  DeleteObjects: 0.081200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.910192 seconds.
+  path: Assets/Scenes/02_檢查連動.unity
+  artifactKey: Guid(88adba3c96c51504484c98d1f4e88b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/02_檢查連動.unity using Guid(88adba3c96c51504484c98d1f4e88b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717839a1d90882f21a1b43f3a7fa4e95') in 0.032463 seconds
+  Import took 0.035178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.685941 seconds.
+  path: Assets/Textures/02_檢查連動/檢查連動-已連線.png
+  artifactKey: Guid(2558371f84718134d864ad41974c6bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/02_檢查連動/檢查連動-已連線.png using Guid(2558371f84718134d864ad41974c6bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176fb7361b017b4a7b44bb9b5e9adac4') in 0.033976 seconds
+  Import took 0.036906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Textures/02_檢查連動/檢查連動-背景.png
+  artifactKey: Guid(8538914a1b485ce4686e1549e7d7d418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/02_檢查連動/檢查連動-背景.png using Guid(8538914a1b485ce4686e1549e7d7d418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733b6b082dc81b7fc5fc1b546f36098a') in 0.010694 seconds
+  Import took 0.013338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Textures/02_檢查連動/檢查連動-連線中.png
+  artifactKey: Guid(734ca28b2bbd89c44aeef922abce4329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/02_檢查連動/檢查連動-連線中.png using Guid(734ca28b2bbd89c44aeef922abce4329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c022b784168b71f5043d352216ffad1') in 0.008167 seconds
+  Import took 0.010686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Textures/02_檢查連動/檢查連動-未連線.png
+  artifactKey: Guid(ac70f59c8aed8b7459d96b84a33324e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/02_檢查連動/檢查連動-未連線.png using Guid(ac70f59c8aed8b7459d96b84a33324e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a85befcfdaf71f599c86abb33f2e67') in 0.014238 seconds
+  Import took 0.017466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.020396 seconds.
+  path: Assets/Textures/02_檢查連動/檢查連動-已連線.png
+  artifactKey: Guid(2558371f84718134d864ad41974c6bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/02_檢查連動/檢查連動-已連線.png using Guid(2558371f84718134d864ad41974c6bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee25c1f208530b23ef57fe641b9e8fc') in 0.032748 seconds
+  Import took 0.036347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Textures/02_檢查連動/檢查連動-背景.png
+  artifactKey: Guid(8538914a1b485ce4686e1549e7d7d418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/02_檢查連動/檢查連動-背景.png using Guid(8538914a1b485ce4686e1549e7d7d418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57ac221c46ec773f883dcb86009f4b2') in 0.012109 seconds
+  Import took 0.015078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Textures/02_檢查連動/檢查連動-連線中.png
+  artifactKey: Guid(734ca28b2bbd89c44aeef922abce4329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/02_檢查連動/檢查連動-連線中.png using Guid(734ca28b2bbd89c44aeef922abce4329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4acea71a57995426e0d39469186215') in 0.013676 seconds
+  Import took 0.061832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Textures/02_檢查連動/檢查連動-未連線.png
+  artifactKey: Guid(ac70f59c8aed8b7459d96b84a33324e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/02_檢查連動/檢查連動-未連線.png using Guid(ac70f59c8aed8b7459d96b84a33324e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61459eb99a1d322e1ca7195b77559f7') in 0.029289 seconds
+  Import took 0.058937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001439 seconds.
+  path: Assets/Textures/02_檢查連動/檢查連動-未連線.png
+  artifactKey: Guid(ac70f59c8aed8b7459d96b84a33324e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/02_檢查連動/檢查連動-未連線.png using Guid(ac70f59c8aed8b7459d96b84a33324e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61459eb99a1d322e1ca7195b77559f7') in 0.022634 seconds
+  Import took 0.026245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.374579 seconds.
+  path: Assets/Scenes/01_開始封面.unity
+  artifactKey: Guid(21b5c967b01780947abfd0ced0731e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/01_開始封面.unity using Guid(21b5c967b01780947abfd0ced0731e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6b830ad3954e9eb2b1b229c70173e2') in 0.002088 seconds
+  Import took 0.004855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011177 seconds.
+  path: Assets/Scenes/01_開始封面.unity
+  artifactKey: Guid(21b5c967b01780947abfd0ced0731e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/01_開始封面.unity using Guid(21b5c967b01780947abfd0ced0731e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6b830ad3954e9eb2b1b229c70173e2') in 0.002033 seconds
+  Import took 0.004860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.126555 seconds.
+  path: Assets/Scenes/02_檢查連動.unity
+  artifactKey: Guid(88adba3c96c51504484c98d1f4e88b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/02_檢查連動.unity using Guid(88adba3c96c51504484c98d1f4e88b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cab9cd38b5001b7cbda98e99c37cc7') in 0.001866 seconds
+  Import took 0.077463 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002447 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.892 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1837 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.9 MB.
+System memory in use after: 94.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2337.
+Total: 2.054700 ms (FindLiveObjects: 0.224400 ms CreateObjectMapping: 0.077200 ms MarkObjects: 1.671400 ms  DeleteObjects: 0.080500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 992.392456 seconds.
+  path: Assets/ScriptTemplates/50-Mirror__Network Manager-NewNetworkManager.cs.txt
+  artifactKey: Guid(ed73cc79a95879d4abd948a36043c798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptTemplates/50-Mirror__Network Manager-NewNetworkManager.cs.txt using Guid(ed73cc79a95879d4abd948a36043c798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b470a19ec9b0534ad5a2e8fb149edfcd') in 0.048608 seconds
+  Import took 0.052553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.805373 seconds.
+  path: Assets/ScriptTemplates/56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt
+  artifactKey: Guid(04337367db30af3459bf9e9f3f880734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptTemplates/56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt using Guid(04337367db30af3459bf9e9f3f880734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b298ce5c0b68a5089dc864acb9d782e') in 0.006476 seconds
+  Import took 0.048847 seconds .
+
