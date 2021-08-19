@@ -1,11 +1,82 @@
 ﻿using UnityEngine;
-using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using System.Linq;
+using Photon.Pun;
+using Photon.Realtime;
 
-public class GameManager : MonoBehaviour
+public class GameManager : MonoBehaviourPunCallbacks
 {
-    private static GameManager GM;
+    #region Example
+    /// <summary>
+    /// Just a player prefab aim for testing.
+    /// </summary>
+    string playerPrefab = "Testplayer";
+    /// <summary>
+    /// Replacing the class after creating a real player.
+    /// </summary>
+    List<DataSyncingExm> players = new List<DataSyncingExm>();
+
+    public void OnPlayerSpanw(DataSyncingExm p)
+    {
+        if (PhotonNetwork.IsMasterClient)
+        {
+            Debug.Log("Updating");
+            p.SyncID(players.Count);
+            players.Add(p);
+        }
+    }
+    public void OnPlayerDestroy(DataSyncingExm p)
+    {
+        if (PhotonNetwork.IsMasterClient)
+        {
+            players.Remove(p);
+            int index = 0;
+            foreach (var player in players)
+            {
+                player.SyncID(index);
+                index++;
+            }
+        }
+    }
+
+    /// <summary>
+    /// Loading player prefab from resource folder by string path.
+    /// </summary>
+    public void SpawnPlayer() => PhotonNetwork.Instantiate(playerPrefab, Vector3.zero, Quaternion.identity, 0);
+    public override void OnJoinedRoom()
+    {
+        base.OnJoinedRoom();
+        SpawnPlayer();
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            PhotonNetwork.JoinRandomRoom();
+        }
+    }
+    public override void OnPlayerEnteredRoom(Player newPlayer)
+    {
+        Debug.LogFormat("OnPlayerEnteredRoom() {0}", newPlayer.NickName);
+    }
+    public override void OnConnectedToMaster()
+    {
+        Debug.Log("Pun connected");
+    }
+    public override void OnDisconnected(DisconnectCause cause)
+    {
+        Debug.Log("Pun Disconnected");
+    }
+    public override void OnJoinRandomFailed(short returnCode, string message)
+    {
+        Debug.Log("PUN Basics Tutorial/Launcher:OnJoinRandomFailed() was called by PUN. No random room available, so we create one.\nCalling: PhotonNetwork.CreateRoom");
+        PhotonNetwork.CreateRoom(null, new RoomOptions { MaxPlayers = 2 });
+    }
+    #endregion
+
+    public static GameManager GM; // Test Update
     private BaseController nowController;
     private int nowScene;
     public enum Scenes
@@ -39,7 +110,7 @@ public class GameManager : MonoBehaviour
         nowController = FindObjectOfType<BaseController>();
 
         //Add receiver to handle Controller's event 
-        if(nowController != null)
+        if (nowController != null)
             nowController.ChangeSceneEvent += ChangeSceneReceiver;
 
         SceneManager.sceneLoaded += OnSceneLoad;
@@ -50,6 +121,8 @@ public class GameManager : MonoBehaviour
         {
             ChangeSceneReceiver(0);
         }
+
+        PhotonNetwork.ConnectUsingSettings(); // Test Update 
     }
 
     #region SceneManagement
