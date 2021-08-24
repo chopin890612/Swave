@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
-using System.Linq;
 using Photon.Pun;
 using Photon.Realtime;
 
