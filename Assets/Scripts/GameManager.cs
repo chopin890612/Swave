@@ -51,6 +51,11 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
 
     private void Update()
     {
+        foreach(var player in players)
+        {
+            player.SyncAcc(player.accelerometer);
+        }
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             PhotonNetwork.JoinRandomRoom();
@@ -63,6 +68,7 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
     public override void OnConnectedToMaster()
     {
         Debug.Log("Pun connected");
+        PhotonNetwork.JoinRandomRoom();
     }
     public override void OnDisconnected(DisconnectCause cause)
     {
@@ -77,7 +83,7 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
 
     public static GameManager GM; // Test Update
     private BaseController nowController;
-    private int nowScene;
+    private Scenes nowScene;
 
     public delegate void InputStautsHandler();
     public event InputStautsHandler ConfirmEvent;
@@ -85,15 +91,19 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
     public event InputStautsHandler LeftEvent;
     public event InputStautsHandler RightEvent;
 
+    private bool isPhone;
+
     public enum Scenes
     {
         開始封面 = 0,
-        檢查連動 = 1,
-        選擇腳色 = 2,
-        設定數值 = 3,
-        操作教學 = 4,
-        世界地圖 = 5,
-        遊戲場景 = 6
+        手機場景 = 1,
+        檢查連動 = 2,
+        選擇腳色 = 3,
+        設定數值 = 4,
+        操作教學 = 5,
+        世界地圖 = 6,
+        遊戲場景 = 7
+        
     }
     public enum InputStaut
     {
@@ -130,10 +140,13 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
         SceneManager.sceneLoaded += OnSceneLoad;
         SceneManager.sceneUnloaded += OnSceneUnload;
 
-        nowScene = SceneManager.GetActiveScene().buildIndex;
-        if (nowScene != (int)Scenes.開始封面)
+        nowScene = (Scenes)SceneManager.GetActiveScene().buildIndex;
+        if (nowScene != Scenes.手機場景)
         {
-            ChangeSceneReceiver(0);
+            if (nowScene != Scenes.開始封面)
+            {
+                ChangeSceneReceiver(0);
+            }
         }
 
         PhotonNetwork.ConnectUsingSettings(); // Test Update 
@@ -154,10 +167,10 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
         if (nowController != null)
             nowController.ChangeSceneEvent -= ChangeSceneReceiver;
     }
-    void ChangeSceneReceiver(int toScene)
+    void ChangeSceneReceiver(Scenes toScene)
     {
         nowScene = toScene;
-        SceneManager.LoadScene(toScene);
+        SceneManager.LoadScene((int)toScene);
     }
 
     #endregion
