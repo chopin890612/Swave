@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
     public override void OnJoinedRoom()
     {
         base.OnJoinedRoom();
-        SpawnPlayer();
+        //SpawnPlayer();
     }
 
     private void Update()
@@ -56,9 +56,11 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
             player.SyncAcc(player.accelerometer);
         }
 
+
+        acc = FindObjectOfType<DataSyncingExm>().accelerometer;
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            PhotonNetwork.JoinRandomRoom();
+            //PhotonNetwork.JoinRandomRoom();
         }
     }
     public override void OnPlayerEnteredRoom(Player newPlayer)
@@ -84,6 +86,8 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
     public static GameManager GM; // Test Update
     private BaseController nowController;
     private Scenes nowScene;
+
+    public Vector3 acc;
 
     public delegate void InputStautsHandler();
     public event InputStautsHandler ConfirmEvent;

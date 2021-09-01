@@ -30,7 +30,7 @@ public class DataSyncingExm : MonoBehaviourPun
                 Debug.Log(id);
             }
         }
-        if(obj.Code == UpdateAccelerometerEventCodeID)
+        else if(obj.Code == UpdateAccelerometerEventCodeID)
         {
             object[] data = (object[])obj.CustomData;
             int check = (int)data[0];
@@ -39,7 +39,7 @@ public class DataSyncingExm : MonoBehaviourPun
             if (base.photonView.ViewID == check)
             {
                 AssignAcc(acc);
-                Debug.Log(acc);
+                Debug.Log("ID: " + id + acc + check);
             }
         }
     }
