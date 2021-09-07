@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Photon.Pun;
+using UnityEngine.SceneManagement;
 
-public abstract class BaseController : MonoBehaviourPunCallbacks
+public abstract class BaseController : MonoBehaviour
 {
     public delegate void ChangeSceneHandler(GameManager.Scenes toScene);
     public event ChangeSceneHandler ChangeSceneEvent;
