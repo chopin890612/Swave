@@ -1,8 +1,58 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SelectController : BaseController
 {
     public List<GameObject> people;
+    public int index = 2;
+    private void Start()
+    {
+        people[index].GetComponent<Outline>().enabled = true;
+    }
+    private void OnEnable()
+    {
+        GameManager.GM.LeftEvent += SelectL;
+        GameManager.GM.RightEvent += SelectR;
+        GameManager.GM.ConfirmEvent += Confirm;
+    }
+    private void OnDisable()
+    {
+        GameManager.GM.LeftEvent -= SelectL;
+        GameManager.GM.RightEvent -= SelectR;
+        GameManager.GM.ConfirmEvent -= Confirm;
+    }
+    void SelectL()
+    {
+        if(index < 5 && index > 0)
+        {
+            index--;
+            for(int i = 0; i < 5; i++)
+            {
+                if (index == i)
+                    people[index].GetComponent<Outline>().enabled = true;
+                else
+                    people[i].GetComponent<Outline>().enabled = false; 
+            }
+        }
+    }
+    void SelectR()
+    {
+        if (index < 4 && index > -1)
+        {
+            index++;
+            for (int i = 0; i < 5; i++)
+            {
+                if (index == i)
+                    people[index].GetComponent<Outline>().enabled = true;
+                else
+                    people[i].GetComponent<Outline>().enabled = false;
+            }
+        }
+    }
+    void Confirm()
+    {
+
+    }
 }

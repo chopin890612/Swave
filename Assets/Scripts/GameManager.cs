@@ -89,6 +89,25 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
     }
     void Update()
     {
+        #region PC DEBUGGING
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Debug.Log("SPACE");
+            otherPlayer = Instantiate(new GameObject()).AddComponent<DataSyncingExm>();
+            otherPlayer.transform.SetParent(transform);
+        }
+        if (Input.GetKeyDown(KeyCode.W))
+            ConfirmEvent();
+        if (Input.GetKeyDown(KeyCode.A))
+            LeftEvent();
+        if (Input.GetKeyDown(KeyCode.S))
+            BackEvent();
+        if (Input.GetKeyDown(KeyCode.D))
+            RightEvent();
+
+        #endregion
+
+
         if (localPlayer != null)
         {
             localPlayer.SyncData(localPlayer.accelerometer);
@@ -102,6 +121,8 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
                 }
             }
         }
+
+
     }
 
     #region SceneManagement
