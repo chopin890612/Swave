@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using Photon.Pun;
 using Photon.Realtime;
+using System;
 
 public class GameManager : MonoBehaviourPunCallbacks, IInput
 {
     public static GameManager GM; // Test Update
     private BaseController nowController;
     private Scenes nowScene;
+    private InputStaut nowStaut;
 
     public delegate void InputStautsHandler();
     public event InputStautsHandler ConfirmEvent;
@@ -16,19 +18,19 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
     public event InputStautsHandler LeftEvent;
     public event InputStautsHandler RightEvent;
 
-    private bool isPhone;
+    public float inputTimeDelay = 1f;
+    private float nowInputTime;
 
     public enum Scenes
     {
+        手機場景 = 10,
         開始封面 = 0,
-        手機場景 = 1,
-        檢查連動 = 2,
-        選擇腳色 = 3,
-        設定數值 = 4,
-        操作教學 = 5,
-        世界地圖 = 6,
-        遊戲場景 = 7
-        
+        檢查連動 = 1,
+        選擇腳色 = 2,
+        設定數值 = 3,
+        操作教學 = 4,
+        世界地圖 = 5,
+        遊戲場景 = 6
     }
     public enum InputStaut
     {
@@ -36,6 +38,7 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
         取消 = 1,
         左 = 2,
         右 = 3,
+        空 = 10,
         錯誤 = 100
     }
     void Awake()
@@ -66,9 +69,9 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
         SceneManager.sceneUnloaded += OnSceneUnload;
 
         nowScene = (Scenes)SceneManager.GetActiveScene().buildIndex;
-        if (nowScene == Scenes.手機場景)
+        if (SceneManager.GetActiveScene().name == "10_手機場景")
         {
-            isPhone = true;
+            Debug.LogWarning("手機啦!!");
         }
         else
         {
@@ -77,6 +80,10 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
                 ChangeSceneReceiver(0);
             }
         }
+        ConfirmEvent += StupidFunc;
+        BackEvent += StupidFunc;
+        LeftEvent += StupidFunc;
+        RightEvent += StupidFunc;
 
         PhotonNetwork.ConnectUsingSettings(); // Test Update 
     }
@@ -85,12 +92,15 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
         if (localPlayer != null)
         {
             localPlayer.SyncData(localPlayer.accelerometer);
-            Debug.Log(InputStauts(otherPlayer.accelerometer));
-        }
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            SpawnPlayer();
+            if (Time.time > nowInputTime)
+            {
+                nowStaut = InputStauts(otherPlayer.accelerometer);
+                if (nowStaut != InputStaut.空)
+                {
+                    nowInputTime = Time.time + inputTimeDelay;
+                    Debug.Log(InputStauts(otherPlayer.accelerometer));
+                }
+            }
         }
     }
 
@@ -119,18 +129,34 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
 
     #region InputManagement
 
+    private void StupidFunc() { }
     public InputStaut InputStauts(Vector3 value)
     {
         if (value.y > 30)
+        {
+            ConfirmEvent();
             return InputStaut.確認;
+        }
         else if (value.y < -30)
+        {
+            BackEvent();
             return InputStaut.取消;
+        }
         else if (value.x > 30)
+        {
+            RightEvent();
             return InputStaut.右;
+        }
+
         else if (value.x < -30)
+        {
+            LeftEvent();
             return InputStaut.左;
+        }
         else
-            return InputStaut.錯誤;
+        {
+            return InputStaut.空;
+        }            
     }
 
     #endregion
@@ -148,6 +174,7 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
 
     public void OnPlayerSpanw(DataSyncingExm p)
     {
+        p.transform.SetParent(transform);
         if (p.GetComponent<PhotonView>().IsMine)
         {
             Debug.Log("Updating");
@@ -170,14 +197,11 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
     /// <summary>
     /// Loading player prefab from resource folder by string path.
     /// </summary>
-    public void SpawnPlayer() => PhotonNetwork.Instantiate(playerPrefab, Vector3.zero, Quaternion.identity, 0);
+    public GameObject SpawnPlayer() { return PhotonNetwork.Instantiate(playerPrefab, Vector3.zero, Quaternion.identity, 0); }
     public override void OnJoinedRoom()
     {
         base.OnJoinedRoom();
         SpawnPlayer();
-        //if(isPhone)
-        //    SpawnPlayer();
-        //player = FindObjectOfType<DataSyncingExm>();
     }
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
