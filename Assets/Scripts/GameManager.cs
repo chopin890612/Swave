@@ -22,15 +22,15 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
     private float nowInputTime;
 
     public enum Scenes
-    {
-        手機場景 = 10,
+    {        
         開始封面 = 0,
         檢查連動 = 1,
         選擇腳色 = 2,
         設定數值 = 3,
         操作教學 = 4,
         世界地圖 = 5,
-        遊戲場景 = 6
+        遊戲場景 = 6,
+        手機場景 = 10
     }
     public enum InputStaut
     {
@@ -117,7 +117,7 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
                 if (nowStaut != InputStaut.空)
                 {
                     nowInputTime = Time.time + inputTimeDelay;
-                    Debug.Log(InputStauts(otherPlayer.accelerometer));
+                    Debug.Log(nowStaut);
                 }
             }
         }

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class SelectController : BaseController
 {
-    public List<GameObject> people;
+    public Transform[] people;
     public int index = 2;
     private void Start()
     {
@@ -53,6 +53,13 @@ public class SelectController : BaseController
     }
     void Confirm()
     {
-
+        if(people[index].transform.GetChild(1).gameObject.activeSelf == false)
+        {
+            ChangeScene(GameManager.Scenes.³]©w¼Æ­È);
+        }
+        else
+        {
+            Debug.Log("LOCKED");
+        }
     }
 }

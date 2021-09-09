@@ -28,7 +28,7 @@ public class ConnectingController : BaseController
     {
         Debug.LogWarning("Confirm");
         if (succeed.activeSelf == true)
-            ChangeScene((int)GameManager.Scenes.選擇腳色);
+            ChangeScene(GameManager.Scenes.選擇腳色);
     }
     private void Succeed()
     {

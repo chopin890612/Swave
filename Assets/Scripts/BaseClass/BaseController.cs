@@ -7,8 +7,8 @@ public abstract class BaseController : MonoBehaviour
 {
     public delegate void ChangeSceneHandler(GameManager.Scenes toScene);
     public event ChangeSceneHandler ChangeSceneEvent;
-    public void ChangeScene(int i)
+    public void ChangeScene(GameManager.Scenes scenes)
     {
-        ChangeSceneEvent((GameManager.Scenes)i);
+        ChangeSceneEvent(scenes);
     }
 }
