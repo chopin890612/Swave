@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class OutlineShine : MonoBehaviour
 {
     private Outline outline;
-    private float delayTime = 0.2f;
+    public float delayTime = 0.1f;
     private float nowTime;
     // Start is called before the first frame update
     void Start()
