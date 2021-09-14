@@ -9,20 +9,9 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
 {
     public static GameManager GM; // Test Update
     private BaseController nowController;
-    private Scenes nowScene;
-    private InputStaut nowStaut;
-
-    public delegate void InputStautsHandler();
-    public event InputStautsHandler ConfirmEvent;
-    public event InputStautsHandler BackEvent;
-    public event InputStautsHandler LeftEvent;
-    public event InputStautsHandler RightEvent;
-
-    public float inputTimeDelay = 1f;
-    private float nowInputTime;
-
+   
     public enum Scenes
-    {        
+    {
         開始封面 = 0,
         檢查連動 = 1,
         選擇腳色 = 2,
@@ -63,8 +52,13 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
 
         //Add receiver to handle Controller's event 
         if (nowController != null)
+        {
             nowController.ChangeSceneEvent += ChangeSceneReceiver;
+            nowController.BGMEvent += PlayBGMReceiver;
+            nowController.SFXEvent += PlaySFXReceiver;
+        }
 
+        #region SceneManagement Inti
         SceneManager.sceneLoaded += OnSceneLoad;
         SceneManager.sceneUnloaded += OnSceneUnload;
 
@@ -80,6 +74,12 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
                 ChangeSceneReceiver(0);
             }
         }
+        #endregion
+
+        AudioInti();
+        PlayBGMReceiver("BGM");
+        PlayBGMReceiver("Seagull");
+
         ConfirmEvent += StupidFunc;
         BackEvent += StupidFunc;
         LeftEvent += StupidFunc;
@@ -105,6 +105,12 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
         if (Input.GetKeyDown(KeyCode.D))
             RightEvent();
 
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            PlayBGMReceiver("BGM");
+            PlayBGMReceiver("Seagull");
+        }
+
         #endregion
 
 
@@ -127,18 +133,28 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
 
     #region SceneManagement
 
+    private Scenes nowScene;
+
     void OnSceneLoad(Scene scene, LoadSceneMode loadSceneMode)
     {
         Debug.LogWarning("Load" + scene.name);
         nowController = FindObjectOfType<BaseController>();
         if (nowController != null)
+        {
             nowController.ChangeSceneEvent += ChangeSceneReceiver;
+            nowController.BGMEvent += PlayBGMReceiver;
+            nowController.SFXEvent += PlaySFXReceiver;
+        }
     }
     void OnSceneUnload(Scene scene)
     {
         Debug.LogWarning("Unload" + scene.name);
         if (nowController != null)
+        {
             nowController.ChangeSceneEvent -= ChangeSceneReceiver;
+            nowController.BGMEvent -= PlayBGMReceiver;
+            nowController.SFXEvent -= PlaySFXReceiver;
+        }
     }
     void ChangeSceneReceiver(Scenes toScene)
     {
@@ -149,7 +165,18 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
     #endregion
 
     #region InputManagement
+    
+    public delegate void InputStautsHandler();
+    public event InputStautsHandler ConfirmEvent;
+    public event InputStautsHandler BackEvent;
+    public event InputStautsHandler LeftEvent;
+    public event InputStautsHandler RightEvent;
 
+    [Header("InputManagement")]
+    [Space]
+    public float inputTimeDelay = 1f;
+    private float nowInputTime;
+    private InputStaut nowStaut;
     private void StupidFunc() { }
     public InputStaut InputStauts(Vector3 value)
     {
@@ -168,7 +195,6 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
             RightEvent();
             return InputStaut.右;
         }
-
         else if (value.x < -30)
         {
             LeftEvent();
@@ -177,7 +203,63 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
         else
         {
             return InputStaut.空;
-        }            
+        }
+    }
+
+    #endregion
+
+    #region AudioManagement
+
+    [Header("AudioManagement")]
+    [Space]
+    public AudioClip[] BGM;
+    private List<AudioSource> BGMList = new List<AudioSource>();
+
+    public AudioClip[] SFX;
+    private List<AudioSource> SFXList = new List<AudioSource>();
+
+    public GameObject BGMPlayer;
+    public GameObject SFXPlayer;
+
+    public void PlayBGMReceiver(string clipName)
+    {
+        for(int i =0; i < BGM.Length; i++)
+        {
+            if(BGM[i].name == clipName)
+            {
+                BGMList[i].Play();
+            }
+        }
+    }
+    public void PlaySFXReceiver(string clipName)
+    {
+        for (int i = 0; i < SFX.Length; i++)
+        {
+            if (SFX[i].name == clipName)
+            {
+                SFXList[i].Play();
+            }
+        }
+    }
+    private void AudioInti()
+    {
+        int index = 0;
+        foreach (AudioClip i in BGM)
+        {
+            BGMList.Add(BGMPlayer.AddComponent<AudioSource>());
+            BGMList[index].clip = i;
+            BGMList[index].playOnAwake = false;
+            BGMList[index].loop = true;
+            index++;
+        }
+        index = 0;
+        foreach (AudioClip i in SFX)
+        {
+            SFXList.Add(SFXPlayer.AddComponent<AudioSource>());
+            SFXList[index].clip = i;
+            SFXList[index].playOnAwake = false;
+            index++;
+        }
     }
 
     #endregion
@@ -190,6 +272,8 @@ public class GameManager : MonoBehaviourPunCallbacks, IInput
     /// <summary>
     /// Replacing the class after creating a real player.
     /// </summary>
+    [Header("PhotonManagement")]
+    [Space]
     public DataSyncingExm localPlayer;
     public DataSyncingExm otherPlayer;
 
